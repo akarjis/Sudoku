@@ -29,7 +29,7 @@ public class SudokuVerifier {
 		return returnValue;
 	}
 	
-	private int checkRow(String candidateSolution, int rowIndex) {		
+	public int checkRow(String candidateSolution, int rowIndex) {		
 		int startRead = 0 + (9 * rowIndex);
 		int endRead = startRead + 9;
 		
@@ -49,7 +49,7 @@ public class SudokuVerifier {
 		return ret;
 	}
 	
-	private int checkColumn(String candidateSolution, int columnIndex) {
+	public int checkColumn(String candidateSolution, int columnIndex) {
 		int ret = 0;
 		Set<Integer> numSet = createNumberSet();
 		String row = "";
