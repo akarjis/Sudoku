@@ -22,8 +22,8 @@ public class SudokuVerifier {
 		
 		for (int i = 0; i < candidateSolution.length() / 9; i++) {
 			returnValue = checkColumn(candidateSolution, i);
-			//if (returnValue != 0)
-				//break;
+			if (returnValue != 0)
+				break;
 		}
 		
 		return returnValue;
@@ -50,8 +50,8 @@ public class SudokuVerifier {
 	}
 	
 	private int checkColumn(String candidateSolution, int columnIndex) {
-		int ret = -1;
-		
+		int ret = 0;
+		Set<Integer> numSet = createNumberSet();
 		String row = "";
 		
 		// build string row for column
@@ -59,9 +59,14 @@ public class SudokuVerifier {
 			row += candidateSolution.charAt(i * 9 + columnIndex);
 		}
 		
-		System.out.println(row);
-		
-		
+		// now we have row, let's check
+		for (int i = 0; i < 9; i++) {
+			int num = Integer.parseInt(row.substring(i, i+1));			
+			boolean success = numSet.remove(num);
+			
+			if (!success)
+				ret = -4;
+		}		
 		
 		return ret;
 	}
