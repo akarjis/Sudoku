@@ -58,3 +58,13 @@ EditAction 1443615115518 TestSudokuVerifier.java 923 4 10 3
 UnitTestCaseAction 1443615118144 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443615118144 TestSudokuVerifier OK
 EditAction 1443615138595 TestSudokuVerifier.java 922 4 10 3
+UnitTestCaseAction 1443615141289 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443615141289 TestSudokuVerifier OK
+RefactoringAction 1443615169864 TestSudokuVerifier.java RENAME testVerifyCorrectStringFormat()=>void testVerifyCorrectString() METHOD
+RefactoringAction 1443615171881 TestSudokuVerifier.java RENAME testVerifyCorrectString()=>void testVerifyCorrectStringLength() METHOD
+RefactoringAction 1443615181929 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443615186947 TestSudokuVerifier.java RENAME test=>void testVerifyNoNegative FIELD
+RefactoringAction 1443615189968 TestSudokuVerifier.java RENAME testVerifyNoNegative=>void testVerifyNoNegativeOrNu FIELD
+RefactoringAction 1443615194988 TestSudokuVerifier.java RENAME testVerifyNoNegativeOrNu=>void testVerifyNoNegativeOrZeroValues FIELD
+RefactoringAction 1443615196004 TestSudokuVerifier.java RENAME testVerifyNoNegativeOrZeroValues=>void testVerifyNoNegativeOrZeroValues() METHOD
+EditAction 1443615366224 TestSudokuVerifier.java 1358 5 16 5
