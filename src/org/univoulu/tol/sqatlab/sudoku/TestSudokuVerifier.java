@@ -23,7 +23,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void testVerifyFailEmptyString() {
 		int ret = verifier.verify("");
-		assertNotEquals(-11, ret);
+		assertEquals(-11, ret);
 	}
 	
 	@Test
