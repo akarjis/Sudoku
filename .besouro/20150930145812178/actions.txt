@@ -91,3 +91,16 @@ EditAction 1443615717954 SudokuVerifier.java 575 2 6 0
 UnitTestCaseAction 1443615722750 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443615722751 TestSudokuVerifier OK
 EditAction 1443615753734 SudokuVerifier.java 721 2 6 0
+RefactoringAction 1443615840093 TestSudokuVerifier.java ADD void testFirstSub FIELD
+RefactoringAction 1443615842114 TestSudokuVerifier.java RENAME testFirstSub=>void testFirstSubGrid() METHOD
+RefactoringAction 1443615868163 TestSudokuVerifier.java RENAME testFirstSubGrid()=>void testFirst FIELD
+RefactoringAction 1443615871676 TestSudokuVerifier.java RENAME testFirst=>void testFirstLine() METHOD
+RefactoringAction 1443615900485 TestSudokuVerifier.java RENAME testFirstLine()=>void test() METHOD
+RefactoringAction 1443615906511 TestSudokuVerifier.java RENAME test()=>void testLines() METHOD
+RefactoringAction 1443615914533 TestSudokuVerifier.java RENAME testLines()=>void test() METHOD
+RefactoringAction 1443615915549 TestSudokuVerifier.java RENAME test()=>void testR() METHOD
+RefactoringAction 1443615918064 TestSudokuVerifier.java RENAME testR()=>void testRows() METHOD
+RefactoringAction 1443615951623 TestSudokuVerifier.java ADD String correctString FIELD
+RefactoringAction 1443615960670 TestSudokuVerifier.java RENAME correctString=>String incorrectString FIELD
+RefactoringAction 1443615971797 TestSudokuVerifier.java ADD String correctString FIELD
+EditAction 1443615988965 TestSudokuVerifier.java 1671 6 16 5
