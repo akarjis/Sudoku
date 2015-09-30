@@ -30,10 +30,10 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testVerifyCorrectStringLength() {
-		String tooShortString = "41736982563215894795872431682543716979158643234691275828964357157329168416487529";
+		String tooShortString = correctString.substring(0, 80);
 		int ret = verifier.verify(tooShortString);
 		assertEquals(-1, ret);
-		String tooLongString = "41736982563215894795872431682543716979158643234691275828964357157329168416487529234234";
+		String tooLongString = (correctString += 1);
 		ret = verifier.verify(tooLongString);
 		assertEquals(-1, ret);
 	}
@@ -51,7 +51,8 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testRows() {
-		String correct
+		int ret = verifier.verify(correctString);
+		assertEquals(0, ret);
 	}
 
 }

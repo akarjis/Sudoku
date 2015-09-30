@@ -104,3 +104,10 @@ RefactoringAction 1443615951623 TestSudokuVerifier.java ADD String correctString
 RefactoringAction 1443615960670 TestSudokuVerifier.java RENAME correctString=>String incorrectString FIELD
 RefactoringAction 1443615971797 TestSudokuVerifier.java ADD String correctString FIELD
 EditAction 1443615988965 TestSudokuVerifier.java 1671 6 16 5
+CompilationAction 1443615989203 TestSudokuVerifier.java
+CompilationAction 1443616099994 TestSudokuVerifier.java
+CompilationAction 1443616100173 TestSudokuVerifier.java
+CompilationAction 1443616153070 TestSudokuVerifier.java
+RefactoringAction 1443616164001 TestSudokuVerifier.java RENAME testRows()=>void testSeRows() METHOD
+RefactoringAction 1443616167516 TestSudokuVerifier.java RENAME testSeRows()=>void testRows() METHOD
+EditAction 1443616167623 TestSudokuVerifier.java 1603 6 18 6
