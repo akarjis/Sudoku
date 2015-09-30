@@ -15,7 +15,14 @@ public class SudokuVerifier {
 	}
 	
 	private int checkRow(String candidateSolution, int rowNumber) {
+		int ret = 0;
+		String row = candidateSolution.substring(0, 8);
 		
+		for (char c : row.toCharArray()) {
+			
+		}
+		
+		return ret;
 	}
 	
 	
