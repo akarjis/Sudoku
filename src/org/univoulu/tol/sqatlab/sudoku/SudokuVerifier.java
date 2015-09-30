@@ -20,6 +20,12 @@ public class SudokuVerifier {
 				break;
 		}
 		
+		for (int i = 0; i < candidateSolution.length() / 9; i++) {
+			returnValue = checkColumn(candidateSolution, i);
+			//if (returnValue != 0)
+				//break;
+		}
+		
 		return returnValue;
 	}
 	
@@ -33,13 +39,29 @@ public class SudokuVerifier {
 		String row = candidateSolution.substring(startRead, endRead);
 		
 		for (int i = 0; i < 9; i++) {
-
 			int num = Integer.parseInt(row.substring(i, i+1));			
 			boolean success = numSet.remove(num);
 			
 			if (!success)
 				ret = -3;
 		}
+		
+		return ret;
+	}
+	
+	private int checkColumn(String candidateSolution, int columnIndex) {
+		int ret = -1;
+		
+		String row = "";
+		
+		// build string row for column
+		for (int i = 0; i < 9; i++){
+			row += candidateSolution.charAt((i + columnIndex) *9);
+		}
+		
+		System.out.println(row);
+		
+		
 		
 		return ret;
 	}
