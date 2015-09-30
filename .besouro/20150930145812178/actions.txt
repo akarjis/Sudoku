@@ -81,3 +81,10 @@ CompilationAction 1443615574732 SudokuVerifier.java
 CompilationAction 1443615582984 SudokuVerifier.java
 CompilationAction 1443615583165 SudokuVerifier.java
 EditAction 1443615588883 SudokuVerifier.java 399 1 3 0
+UnitTestCaseAction 1443615594753 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443615594753 TestSudokuVerifier OK
+RefactoringAction 1443615608002 SudokuVerifier.java ADD int che FIELD
+RefactoringAction 1443615609016 SudokuVerifier.java RENAME che=>int check FIELD
+RefactoringAction 1443615614028 SudokuVerifier.java RENAME check=>int checkValidInput() METHOD
+RefactoringAction 1443615648423 SudokuVerifier.java RENAME checkValidInput()=>int checkValidInput(String) METHOD
+EditAction 1443615717954 SudokuVerifier.java 575 2 6 0

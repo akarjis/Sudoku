@@ -4,6 +4,14 @@ public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
+		int validity = checkValidInput(candidateSolution);
+		if (validity == -1)
+			return validity;
+		
+		return 1;
+	}
+	
+	private int checkValidInput(String candidateSolution) {
 		if ( candidateSolution.isEmpty() || candidateSolution.length() != 81) {
 			return -1;
 		}
@@ -11,7 +19,6 @@ public class SudokuVerifier {
 		if ( candidateSolution.contains("0") || candidateSolution.contains("-")) {
 			return -1;
 		}
-		
-		return 1;
+		return 0;
 	}
 }
