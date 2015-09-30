@@ -8,3 +8,20 @@ EditAction 1443614552016 TestSudokuVerifier.java 487 3 4 1
 UnitTestCaseAction 1443614560587 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443614560587 TestSudokuVerifier FAIL
 EditAction 1443614590191 TestSudokuVerifier.java 484 3 4 1
+UnitTestCaseAction 1443614590520 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443614590520 TestSudokuVerifier OK
+RefactoringAction 1443614598036 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443614599070 TestSudokuVerifier.java RENAME test=>void testVer FIELD
+RefactoringAction 1443614600094 TestSudokuVerifier.java RENAME testVer=>void testVerify FIELD
+RefactoringAction 1443614640916 TestSudokuVerifier.java RENAME testVerify=>void testVerifyStringLengh FIELD
+RefactoringAction 1443614641936 TestSudokuVerifier.java RENAME testVerifyStringLengh=>void testVerifyStringLength FIELD
+RefactoringAction 1443614643961 TestSudokuVerifier.java RENAME testVerifyStringLength=>void testVerifyStringLengthE FIELD
+RefactoringAction 1443614644980 TestSudokuVerifier.java RENAME testVerifyStringLengthE=>void testVerifyStringLength FIELD
+RefactoringAction 1443614646001 TestSudokuVerifier.java RENAME testVerifyStringLength=>void testVerifyStringLengthIs FIELD
+RefactoringAction 1443614648025 TestSudokuVerifier.java RENAME testVerifyStringLengthIs=>void testVerifyStringLengthIsEightyO FIELD
+RefactoringAction 1443614651049 TestSudokuVerifier.java RENAME testVerifyStringLengthIsEightyO=>void testVerifyStringLengthIsEightyOne() METHOD
+RefactoringAction 1443614660591 TestSudokuVerifier.java RENAME testVerifyStringLengthIsEightyOne()=>void testVerifyStr() METHOD
+RefactoringAction 1443614662109 TestSudokuVerifier.java RENAME testVerifyStr()=>void testVerify() METHOD
+RefactoringAction 1443614665127 TestSudokuVerifier.java RENAME testVerify()=>void testVerifyCorrect() METHOD
+RefactoringAction 1443614666644 TestSudokuVerifier.java RENAME testVerifyCorrect()=>void testVerifyCorrectString() METHOD
+EditAction 1443614739101 TestSudokuVerifier.java 722 4 7 2

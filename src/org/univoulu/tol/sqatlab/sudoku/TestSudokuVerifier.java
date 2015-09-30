@@ -25,5 +25,12 @@ public class TestSudokuVerifier {
 		int ret = verifier.verify("");
 		assertEquals(1, ret);
 	}
+	
+	@Test
+	public void testVerifyCorrectString() {
+		String correctString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		int ret = verifier.verify(correctString);
+		assertEquals(0, ret);
+	}
 
 }
