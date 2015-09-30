@@ -8,7 +8,7 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		if ( candidateSolution.contains(0) || candidateSolution.contains(-)) {
+		if ( candidateSolution.contains("0") || candidateSolution.contains("-")) {
 			return -1;
 		}
 		
