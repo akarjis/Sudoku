@@ -161,3 +161,4 @@ RefactoringAction 1443618345575 TestSudokuVerifier.java RENAME testColumn=>void 
 RefactoringAction 1443618347086 TestSudokuVerifier.java RENAME testColumn()=>void testColum FIELD
 RefactoringAction 1443618350099 TestSudokuVerifier.java RENAME testColum=>void testColumnOne() METHOD
 EditAction 1443618373712 TestSudokuVerifier.java 1717 7 20 7
+EditAction 1443618386102 TestSudokuVerifier.java 1720 7 20 7

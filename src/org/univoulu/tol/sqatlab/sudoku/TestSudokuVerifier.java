@@ -54,6 +54,7 @@ public class TestSudokuVerifier {
 		int ret = verifier.verify(correctString);
 		assertEquals(0, ret);
 	}
+	
 	@Test
 	public void testColumnOne() {
 		int ret = verifier.verify(correctString);
