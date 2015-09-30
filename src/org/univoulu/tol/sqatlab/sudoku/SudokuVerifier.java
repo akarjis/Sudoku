@@ -8,8 +8,16 @@ public class SudokuVerifier {
 		if (validity == -1)
 			return validity;
 		
+		
+		int returnValue = checkRow(candidateSolution, 1);
+		
 		return 1;
 	}
+	
+	private int checkRow(String candidateSolution, int rowNumber) {
+		
+	}
+	
 	
 	/**
 	 * Checks if input is valid

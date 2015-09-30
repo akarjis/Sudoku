@@ -111,3 +111,13 @@ CompilationAction 1443616153070 TestSudokuVerifier.java
 RefactoringAction 1443616164001 TestSudokuVerifier.java RENAME testRows()=>void testSeRows() METHOD
 RefactoringAction 1443616167516 TestSudokuVerifier.java RENAME testSeRows()=>void testRows() METHOD
 EditAction 1443616167623 TestSudokuVerifier.java 1603 6 18 6
+UnitTestCaseAction 1443616169935 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443616169935 TestSudokuVerifier.testRows FAIL
+RefactoringAction 1443616204585 SudokuVerifier.java ADD int che FIELD
+RefactoringAction 1443616206101 SudokuVerifier.java RENAME che=>int check FIELD
+RefactoringAction 1443616208116 SudokuVerifier.java RENAME check=>int checkSudoku FIELD
+RefactoringAction 1443616220639 SudokuVerifier.java REMOVE checkSudoku FIELD
+RefactoringAction 1443616236765 SudokuVerifier.java ADD boolean checkRow() METHOD
+RefactoringAction 1443616240781 SudokuVerifier.java RENAME checkRow()=>boolean checkRow(int) METHOD
+RefactoringAction 1443616264826 SudokuVerifier.java RENAME checkRow(int)=>boolean checkRow(String, int) METHOD
+EditAction 1443616293824 SudokuVerifier.java 862 3 7 0
