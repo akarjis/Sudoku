@@ -25,3 +25,10 @@ RefactoringAction 1443614662109 TestSudokuVerifier.java RENAME testVerifyStr()=>
 RefactoringAction 1443614665127 TestSudokuVerifier.java RENAME testVerify()=>void testVerifyCorrect() METHOD
 RefactoringAction 1443614666644 TestSudokuVerifier.java RENAME testVerifyCorrect()=>void testVerifyCorrectString() METHOD
 EditAction 1443614739101 TestSudokuVerifier.java 722 4 7 2
+UnitTestCaseAction 1443614739477 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443614739477 TestSudokuVerifier FAIL
+RefactoringAction 1443614787643 TestSudokuVerifier.java RENAME testVerifyCorrectString()=>void testVerifyCorrectFirstString() METHOD
+RefactoringAction 1443614789161 TestSudokuVerifier.java RENAME testVerifyCorrectFirstString()=>void testVerifyCorrectFirstRowString() METHOD
+RefactoringAction 1443614808195 TestSudokuVerifier.java RENAME testVerifyCorrectFirstRowString()=>void testVerifyCorrectString() METHOD
+RefactoringAction 1443614834249 TestSudokuVerifier.java RENAME testVerifyCorrectString()=>void testVerifyCorrectStringFormat() METHOD
+EditAction 1443614906839 TestSudokuVerifier.java 730 4 7 2
