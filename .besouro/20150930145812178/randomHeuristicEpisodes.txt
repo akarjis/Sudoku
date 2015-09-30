@@ -6,3 +6,8 @@
 1443615387709 test-addition 1 217 true
 1443615594753 production 1 158 false
 1443615722751 production 3 114 true
+1443616433814 test-last 1 680 false
+1443618000881 regression 2 1505 true
+1443618152008 regression 1 0 true
+1443618156532 regression 1 0 false
+1443618309508 regression 2 66 true

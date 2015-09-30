@@ -123,3 +123,41 @@ RefactoringAction 1443616264826 SudokuVerifier.java RENAME checkRow(int)=>boolea
 EditAction 1443616293824 SudokuVerifier.java 862 3 7 0
 CompilationAction 1443616294146 SudokuVerifier.java
 EditAction 1443616422560 SudokuVerifier.java 996 3 11 0
+UnitTestCaseAction 1443616433813 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616433814 TestSudokuVerifier.testRows OK
+RefactoringAction 1443616495622 SudokuVerifier.java ADD import java.util.Set IMPORT
+RefactoringAction 1443616547869 SudokuVerifier.java ADD import java.util.HashSet IMPORT
+RefactoringAction 1443616578368 SudokuVerifier.java ADD Set<Integer> create FIELD
+RefactoringAction 1443616581389 SudokuVerifier.java RENAME create=>Set<Integer> createSet FIELD
+RefactoringAction 1443616584906 SudokuVerifier.java RENAME createSet=>Set<Integer> createNumberSet() METHOD
+RefactoringAction 1443616734344 SudokuVerifier.java ADD import java.util.Arrays IMPORT
+UnitTestCaseAction 1443617058506 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617058506 TestSudokuVerifier.testRows FAIL
+UnitTestCaseAction 1443617206159 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617206159 TestSudokuVerifier.testRows FAIL
+UnitTestCaseAction 1443617213144 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617213144 TestSudokuVerifier.testRows FAIL
+UnitTestCaseAction 1443617680479 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617680479 TestSudokuVerifier.testRows FAIL
+UnitTestCaseAction 1443617762532 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617762532 TestSudokuVerifier.testRows FAIL
+UnitTestCaseAction 1443617980667 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617980667 TestSudokuVerifier.testRows FAIL
+UnitTestCaseAction 1443618000881 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618000881 TestSudokuVerifier.testRows OK
+UnitTestCaseAction 1443618152008 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618152008 TestSudokuVerifier.testRows OK
+UnitTestCaseAction 1443618156532 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618156532 TestSudokuVerifier.testRows OK
+CompilationAction 1443618242543 SudokuVerifier.java
+CompilationAction 1443618269953 SudokuVerifier.java
+CompilationAction 1443618270120 SudokuVerifier.java
+UnitTestCaseAction 1443618309508 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618309508 TestSudokuVerifier.testRows OK
+RefactoringAction 1443618330054 SudokuVerifier.java ADD int checkColu FIELD
+RefactoringAction 1443618332073 SudokuVerifier.java REMOVE checkColu FIELD
+RefactoringAction 1443618343562 TestSudokuVerifier.java ADD void testColumn FIELD
+RefactoringAction 1443618345575 TestSudokuVerifier.java RENAME testColumn=>void testColumn() METHOD
+RefactoringAction 1443618347086 TestSudokuVerifier.java RENAME testColumn()=>void testColum FIELD
+RefactoringAction 1443618350099 TestSudokuVerifier.java RENAME testColum=>void testColumnOne() METHOD
+EditAction 1443618373712 TestSudokuVerifier.java 1717 7 20 7
