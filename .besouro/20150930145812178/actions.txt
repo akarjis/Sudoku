@@ -68,3 +68,6 @@ RefactoringAction 1443615189968 TestSudokuVerifier.java RENAME testVerifyNoNegat
 RefactoringAction 1443615194988 TestSudokuVerifier.java RENAME testVerifyNoNegativeOrNu=>void testVerifyNoNegativeOrZeroValues FIELD
 RefactoringAction 1443615196004 TestSudokuVerifier.java RENAME testVerifyNoNegativeOrZeroValues=>void testVerifyNoNegativeOrZeroValues() METHOD
 EditAction 1443615366224 TestSudokuVerifier.java 1358 5 16 5
+UnitTestCaseAction 1443615366544 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443615366544 TestSudokuVerifier FAIL
+EditAction 1443615379646 TestSudokuVerifier.java 1368 5 16 5

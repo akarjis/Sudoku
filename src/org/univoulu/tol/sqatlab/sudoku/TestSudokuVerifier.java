@@ -36,7 +36,8 @@ public class TestSudokuVerifier {
 		assertEquals(-1, ret);
 	}
 	
-	@Test void testVerifyNoNegativeOrZeroValues() {
+	@Test 
+	public void testVerifyNoNegativeOrZeroValues() {
 		String negativeValuesString = "-4173698256321589479587243168254371697915864323469127582896435715732916841648752923";
 		int ret = verifier.verify(negativeValuesString);
 		assertEquals(-1, ret);
