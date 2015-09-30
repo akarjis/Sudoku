@@ -11,6 +11,11 @@ public class SudokuVerifier {
 		return 1;
 	}
 	
+	/**
+	 * Checks if input is valid
+	 * @param candidateSolution 
+	 * @return 0 if input is valid and ready to be compared, -1 if invalid
+	 */
 	private int checkValidInput(String candidateSolution) {
 		if ( candidateSolution.isEmpty() || candidateSolution.length() != 81) {
 			return -1;

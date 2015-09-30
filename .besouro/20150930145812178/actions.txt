@@ -88,3 +88,6 @@ RefactoringAction 1443615609016 SudokuVerifier.java RENAME che=>int check FIELD
 RefactoringAction 1443615614028 SudokuVerifier.java RENAME check=>int checkValidInput() METHOD
 RefactoringAction 1443615648423 SudokuVerifier.java RENAME checkValidInput()=>int checkValidInput(String) METHOD
 EditAction 1443615717954 SudokuVerifier.java 575 2 6 0
+UnitTestCaseAction 1443615722750 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443615722751 TestSudokuVerifier OK
+EditAction 1443615753734 SudokuVerifier.java 721 2 6 0
