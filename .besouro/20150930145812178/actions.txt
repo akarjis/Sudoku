@@ -212,3 +212,38 @@ EditAction 1443619896312 SudokuVerifier.java 2306 5 24 0
 UnitTestCaseAction 1443619904761 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443619904762 TestSudokuVerifier OK
 EditAction 1443619949619 SudokuVerifier.java 2304 5 24 0
+UnitTestCaseAction 1443620021072 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620021072 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443620032417 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620032417 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443620042612 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443620042612 TestSudokuVerifier OK
+UnitTestCaseAction 1443620076403 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443620076403 TestSudokuVerifier OK
+RefactoringAction 1443620117537 TestSudokuVerifier.java RENAME testColums()=>void testColumsPass() METHOD
+RefactoringAction 1443620121051 TestSudokuVerifier.java RENAME testRows()=>void testRowsPass() METHOD
+RefactoringAction 1443620128069 TestSudokuVerifier.java ADD void testRowsPass()/2 METHOD
+RefactoringAction 1443620132085 TestSudokuVerifier.java RENAME testRowsPass()/2=>void testRowsFail() METHOD
+RefactoringAction 1443620133600 TestSudokuVerifier.java RENAME testRowsFail()=>void testRows() METHOD
+RefactoringAction 1443620138119 TestSudokuVerifier.java RENAME testRows()=>void testRowsIncorrect() METHOD
+RefactoringAction 1443620142136 TestSudokuVerifier.java RENAME testRowsIncorrect()=>void testRowsIncorrectString() METHOD
+RefactoringAction 1443620147154 TestSudokuVerifier.java RENAME testRowsPass()=>void testRowsCorrectString() METHOD
+RefactoringAction 1443620173209 TestSudokuVerifier.java ADD void testRowsIncorrectString()/2 METHOD
+RefactoringAction 1443620177722 TestSudokuVerifier.java RENAME testRowsIncorrectString()/2=>void testIncorrectString() METHOD
+RefactoringAction 1443620180238 TestSudokuVerifier.java RENAME testIncorrectString()=>void testColumnsIncorrectString() METHOD
+UnitTestCaseAction 1443620194730 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620194731 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443620265578 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620265578 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443620296282 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443620296283 TestSudokuVerifier OK
+RefactoringAction 1443620356179 TestSudokuVerifier.java ADD void testColumsPass()/2 METHOD
+RefactoringAction 1443620361695 TestSudokuVerifier.java RENAME testColumsPass()/2=>void testCorrectString() METHOD
+RefactoringAction 1443620393310 TestSudokuVerifier.java ADD void testCorrectString()/2 METHOD
+RefactoringAction 1443620396825 TestSudokuVerifier.java RENAME testCorrectString()/2=>void testIncorrectString() METHOD
+UnitTestCaseAction 1443620407150 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620407150 TestSudokuVerifier FAIL
+RefactoringAction 1443620433394 TestSudokuVerifier.java REMOVE testIncorrectString() METHOD
+RefactoringAction 1443620436907 TestSudokuVerifier.java ADD void testIncorrectString() METHOD
+UnitTestCaseAction 1443620441756 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620441757 TestSudokuVerifier FAIL

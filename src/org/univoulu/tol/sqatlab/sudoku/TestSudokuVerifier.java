@@ -48,17 +48,52 @@ public class TestSudokuVerifier {
 		ret = verifier.verify(zeroValuesString);
 		assertEquals(-1, ret);
 	}
-	
-	@Test
-	public void testRows() {
-		int ret = verifier.verify(correctString);
-		assertEquals(0, ret);
-	}
-	
-	@Test
-	public void testColums() {
-		int ret = verifier.verify(correctString);
-		assertEquals(0, ret);
-	}
 
+	@Test
+	public void testCorrectString() {
+		int ret = verifier.verify(correctString);
+		assertEquals(0, ret);
+	}
+	
+	@Test
+	public void testRowsCorrectString() {
+		int ret;
+		for (int i = 0; i < 9; i++) {
+			ret = verifier.checkRow(correctString, i);
+			assertEquals(0, ret);
+		}
+	}
+	
+	@Test
+	public void testRowsIncorrectString() {
+		int ret;
+		for (int i = 0; i < 9; i++) {
+			ret = verifier.checkRow("111111111222222222333333333444444444555555555666666666777777777888888888999999999", i);
+			assertEquals(-3, ret);
+		}
+	}
+	
+	@Test
+	public void testColumsPass() {
+		int ret;
+		for (int i = 0; i < 9; i++) {
+			ret = verifier.checkColumn(correctString, i);
+			assertEquals(0, ret);
+		}
+	}
+	
+	@Test
+	public void testColumnsIncorrectString() {
+		int ret;
+		for (int i = 0; i < 9; i++) {
+			ret = verifier.checkColumn("123456789123456789123456789123456789123456789123456789123456789123456789123456789", i);
+			assertEquals(-4, ret);
+		}
+	}
+	
+	@Test
+	public void testIncorrectString() {
+		int ret = verifier.verify(incorrectString);
+		assertNotEquals(0, ret);
+	}
 }
