@@ -56,7 +56,7 @@ public class SudokuVerifier {
 		
 		// build string row for column
 		for (int i = 0; i < 9; i++){
-			row += candidateSolution.charAt((i + columnIndex) *9);
+			row += candidateSolution.charAt(i * 9);
 		}
 		
 		System.out.println(row);
