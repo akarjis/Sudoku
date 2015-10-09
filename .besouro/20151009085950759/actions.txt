@@ -34,3 +34,8 @@ RefactoringAction 1444370881436 TestSudokuVerifier.java RENAME testIncorrectSub=
 UnitTestCaseAction 1444370921114 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444370921115 TestSudokuVerifier FAIL
 EditAction 1444370994204 SudokuVerifier.java 2429 7 29 0
+UnitTestCaseAction 1444370994516 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444370994516 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444371554802 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444371554803 TestSudokuVerifier FAIL
+EditAction 1444371566677 SudokuVerifier.java 3081 7 41 0

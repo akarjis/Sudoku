@@ -62,7 +62,29 @@ public class SudokuVerifier {
 	
 	public int checkSubGrid(String candidateSolution, int gridIndex) {
 		int ret = 0;
+		int startRead = 0 + (3 * gridIndex);
+		int endRead = startRead + 3;
+		
 		String row = "";
+		
+				
+		row += candidateSolution.charAt(startRead + 0);
+		row += candidateSolution.charAt(startRead + 1);
+		row += candidateSolution.charAt(startRead + 2);
+		
+		row += candidateSolution.charAt(startRead + 9);
+		row += candidateSolution.charAt(startRead + 10);
+		row += candidateSolution.charAt(startRead + 11);
+		
+		row += candidateSolution.charAt(startRead + 18);
+		row += candidateSolution.charAt(startRead + 19);
+		row += candidateSolution.charAt(startRead + 20);
+		
+		// build string row from sub grid
+		
+		if (!checkValidRow(row)) {
+			ret = -2;
+		}
 		
 		
 		return ret;
