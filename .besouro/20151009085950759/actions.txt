@@ -13,3 +13,13 @@ EditAction 1444370734089 SudokuVerifier.java 2336 6 28 0
 UnitTestCaseAction 1444370735782 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444370735783 TestSudokuVerifier FAIL
 EditAction 1444370757518 SudokuVerifier.java 2329 6 27 0
+UnitTestCaseAction 1444370757817 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444370757818 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444370775643 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444370775643 TestSudokuVerifier FAIL
+RefactoringAction 1444370809669 SudokuVerifier.java ADD int check FIELD
+RefactoringAction 1444370810696 SudokuVerifier.java RENAME check=>int checkS FIELD
+RefactoringAction 1444370812212 SudokuVerifier.java RENAME checkS=>int checkSub FIELD
+RefactoringAction 1444370820735 SudokuVerifier.java RENAME checkSub=>int checkSubGrid(String) METHOD
+RefactoringAction 1444370824762 SudokuVerifier.java RENAME checkSubGrid(String)=>int checkSubGrid(String, int) METHOD
+EditAction 1444370838490 SudokuVerifier.java 2401 7 28 0
