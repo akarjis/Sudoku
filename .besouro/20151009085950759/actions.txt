@@ -7,3 +7,6 @@ RefactoringAction 1444370437390 SudokuVerifier.java RENAME checkValid=>int check
 RefactoringAction 1444370438433 SudokuVerifier.java RENAME checkValidRow=>int checkValidRow() METHOD
 RefactoringAction 1444370445516 SudokuVerifier.java RENAME checkValidRow()=>int checkValidRow(String) METHOD
 EditAction 1444370669693 SudokuVerifier.java 2294 6 26 0
+UnitTestCaseAction 1444370683316 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444370683320 TestSudokuVerifier FAIL
+EditAction 1444370734089 SudokuVerifier.java 2336 6 28 0

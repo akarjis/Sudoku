@@ -35,8 +35,8 @@ public class SudokuVerifier {
 		int ret = 0;
 		
 		String row = candidateSolution.substring(startRead, endRead);
-		
-		if (!checkValidRow(row)) {
+		boolean valid = checkValidRow(row);
+		if (!valid) {
 			ret = -3;
 		}
 		
@@ -53,10 +53,10 @@ public class SudokuVerifier {
 		}
 		
 		// now we have row, let's check
-		if (!checkValidRow(row)) {
+		boolean valid = checkValidRow(row);
+		if (!valid) {
 			ret = -4;
-		}		
-		
+		}
 		return ret;
 	}
 	
