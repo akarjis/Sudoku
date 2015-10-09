@@ -63,11 +63,9 @@ public class SudokuVerifier {
 	public int checkSubGrid(String candidateSolution, int gridIndex) {
 		int ret = 0;
 		int startRead = 0 + (3 * gridIndex);
-		int endRead = startRead + 3;
 		
 		String row = "";
-		
-				
+			
 		row += candidateSolution.charAt(startRead + 0);
 		row += candidateSolution.charAt(startRead + 1);
 		row += candidateSolution.charAt(startRead + 2);

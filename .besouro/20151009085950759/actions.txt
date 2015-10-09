@@ -39,3 +39,9 @@ UnitTestSessionAction 1444370994516 TestSudokuVerifier FAIL
 UnitTestCaseAction 1444371554802 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444371554803 TestSudokuVerifier FAIL
 EditAction 1444371566677 SudokuVerifier.java 3081 7 41 0
+UnitTestCaseAction 1444371568417 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444371568417 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444371604067 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444371604067 TestSudokuVerifier FAIL
+RefactoringAction 1444371653128 TestSudokuVerifier.java ADD void testCorrectSubGrid() METHOD
+EditAction 1444371679364 SudokuVerifier.java 3044 7 40 0

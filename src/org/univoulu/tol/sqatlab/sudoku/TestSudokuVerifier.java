@@ -97,6 +97,11 @@ public class TestSudokuVerifier {
 		assertNotEquals(0, ret);
 	}
 	
+	@Test void testCorrectSubGrid() {
+		int ret = verifier.checkSubGrid(correctString, 0);
+		assertEquals(0, ret);
+	}
+	
 	@Test
 	public void testIncorrectSubGrid() {
 		int ret = verifier.checkSubGrid(incorrectString, 0);
