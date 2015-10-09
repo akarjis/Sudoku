@@ -45,3 +45,28 @@ UnitTestCaseAction 1444371604067 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444371604067 TestSudokuVerifier FAIL
 RefactoringAction 1444371653128 TestSudokuVerifier.java ADD void testCorrectSubGrid() METHOD
 EditAction 1444371679364 SudokuVerifier.java 3044 7 40 0
+UnitTestCaseAction 1444371679684 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444371679684 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444371688798 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444371688798 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444371893971 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444371893972 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444371919098 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444371919099 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444372090197 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444372090198 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444373198273 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444373198273 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444373201905 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444373201905 TestSudokuVerifier FAIL
+RefactoringAction 1444373418108 TestSudokuVerifier.java ADD void testCorrectSubGrid()/2 METHOD
+RefactoringAction 1444373423128 TestSudokuVerifier.java RENAME testCorrectSubGrid()/2=>void testCorrectSubGridIndexThree() METHOD
+UnitTestCaseAction 1444373467893 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444373467894 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444373469516 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444373469516 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444373513094 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444373513095 TestSudokuVerifier FAIL
+RefactoringAction 1444374450039 SudokuVerifier.java REMOVE createNumberSet() METHOD
+RefactoringAction 1444374452047 SudokuVerifier.java ADD Set<Integer> createNumberSet() METHOD
+EditAction 1444374713107 SudokuVerifier.java 3486 7 43 0

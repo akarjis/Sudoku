@@ -16,14 +16,20 @@ public class SudokuVerifier {
 		
 		for (int i = 0; i < candidateSolution.length() / 9; i++) {
 			returnValue = checkRow(candidateSolution, i);
-			if (returnValue != 0)
-				break;
+			if (returnValue != 0) 
+				return returnValue;
 		}
 		
 		for (int i = 0; i < candidateSolution.length() / 9; i++) {
 			returnValue = checkColumn(candidateSolution, i);
 			if (returnValue != 0)
-				break;
+				return returnValue;
+		}
+		
+		for (int i = 0; i < 9; i++) {
+			returnValue = checkSubGrid(candidateSolution, i);
+			if (returnValue != 0)
+				return returnValue;
 		}
 		
 		return returnValue;
@@ -62,6 +68,16 @@ public class SudokuVerifier {
 	
 	public int checkSubGrid(String candidateSolution, int gridIndex) {
 		int ret = 0;
+		int startRead = 0;
+		
+		if (gridIndex < 3)
+			startRead += (3 * gridIndex);
+		else if (gridIndex >= 3 && gridIndex <=5)
+			startRead += 27 + (3 * (gridIndex - 3));
+		else if (gridIndex >= 6 && gridIndex <=8)
+			startRead += 54 + (3 * (gridIndex - 6));
+
+		
 		int startRead = 0 + (3 * gridIndex);
 		
 		String row = "";
