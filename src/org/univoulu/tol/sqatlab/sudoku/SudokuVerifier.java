@@ -76,9 +76,6 @@ public class SudokuVerifier {
 			startRead += 27 + (3 * (gridIndex - 3));
 		else if (gridIndex >= 6 && gridIndex <=8)
 			startRead += 54 + (3 * (gridIndex - 6));
-
-		
-		int startRead = 0 + (3 * gridIndex);
 		
 		String row = "";
 			

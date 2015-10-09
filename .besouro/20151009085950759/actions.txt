@@ -70,3 +70,8 @@ UnitTestSessionAction 1444373513095 TestSudokuVerifier FAIL
 RefactoringAction 1444374450039 SudokuVerifier.java REMOVE createNumberSet() METHOD
 RefactoringAction 1444374452047 SudokuVerifier.java ADD Set<Integer> createNumberSet() METHOD
 EditAction 1444374713107 SudokuVerifier.java 3486 7 43 0
+CompilationAction 1444374713878 SudokuVerifier.java
+UnitTestCaseAction 1444374722774 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444374722774 TestSudokuVerifier OK
+UnitTestCaseAction 1444374784523 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444374784523 TestSudokuVerifier OK
