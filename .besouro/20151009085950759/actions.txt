@@ -23,3 +23,14 @@ RefactoringAction 1444370812212 SudokuVerifier.java RENAME checkS=>int checkSub 
 RefactoringAction 1444370820735 SudokuVerifier.java RENAME checkSub=>int checkSubGrid(String) METHOD
 RefactoringAction 1444370824762 SudokuVerifier.java RENAME checkSubGrid(String)=>int checkSubGrid(String, int) METHOD
 EditAction 1444370838490 SudokuVerifier.java 2401 7 28 0
+FileOpenedAction 1444370847259 TestSudokuVerifier.java 2597 11 28 7
+RefactoringAction 1444370864331 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1444370865337 TestSudokuVerifier.java RENAME test=>void testSub FIELD
+RefactoringAction 1444370867352 TestSudokuVerifier.java RENAME testSub=>void testSubgr FIELD
+RefactoringAction 1444370869373 TestSudokuVerifier.java RENAME testSubgr=>void testSub FIELD
+RefactoringAction 1444370870892 TestSudokuVerifier.java RENAME testSub=>void testSubGrid FIELD
+RefactoringAction 1444370877916 TestSudokuVerifier.java RENAME testSubGrid=>void testIncorrectSub FIELD
+RefactoringAction 1444370881436 TestSudokuVerifier.java RENAME testIncorrectSub=>void testIncorrectSubGrid() METHOD
+UnitTestCaseAction 1444370921114 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444370921115 TestSudokuVerifier FAIL
+EditAction 1444370994204 SudokuVerifier.java 2429 7 29 0

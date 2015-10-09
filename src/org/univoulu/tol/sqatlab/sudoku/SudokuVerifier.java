@@ -62,6 +62,9 @@ public class SudokuVerifier {
 	
 	public int checkSubGrid(String candidateSolution, int gridIndex) {
 		int ret = 0;
+		String row = "";
+		
+		
 		return ret;
 	}
 	
