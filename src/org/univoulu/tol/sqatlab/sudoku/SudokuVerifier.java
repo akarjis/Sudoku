@@ -70,6 +70,7 @@ public class SudokuVerifier {
 		int ret = 0;
 		int startRead = 0;
 		
+		// such if, much wow!
 		if (gridIndex < 3)
 			startRead += (3 * gridIndex);
 		else if (gridIndex >= 3 && gridIndex <=5)
@@ -78,7 +79,10 @@ public class SudokuVerifier {
 			startRead += 54 + (3 * (gridIndex - 6));
 		
 		String row = "";
-			
+		
+		// build string row from sub grid
+		
+		// for loop is overrated
 		row += candidateSolution.charAt(startRead + 0);
 		row += candidateSolution.charAt(startRead + 1);
 		row += candidateSolution.charAt(startRead + 2);
@@ -90,8 +94,6 @@ public class SudokuVerifier {
 		row += candidateSolution.charAt(startRead + 18);
 		row += candidateSolution.charAt(startRead + 19);
 		row += candidateSolution.charAt(startRead + 20);
-		
-		// build string row from sub grid
 		
 		if (!checkValidRow(row)) {
 			ret = -2;
