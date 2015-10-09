@@ -1,0 +1,9 @@
+FileOpenedAction 1444370391134 SudokuVerifier.java 2304 5 24 0
+RefactoringAction 1444370411716 SudokuVerifier.java ADD int check FIELD
+RefactoringAction 1444370430777 SudokuVerifier.java RENAME check=>int checkValid FIELD
+RefactoringAction 1444370434832 SudokuVerifier.java RENAME checkValid=>int checkValidS FIELD
+RefactoringAction 1444370435852 SudokuVerifier.java RENAME checkValidS=>int checkValid FIELD
+RefactoringAction 1444370437390 SudokuVerifier.java RENAME checkValid=>int checkValidRow FIELD
+RefactoringAction 1444370438433 SudokuVerifier.java RENAME checkValidRow=>int checkValidRow() METHOD
+RefactoringAction 1444370445516 SudokuVerifier.java RENAME checkValidRow()=>int checkValidRow(String) METHOD
+EditAction 1444370669693 SudokuVerifier.java 2294 6 26 0

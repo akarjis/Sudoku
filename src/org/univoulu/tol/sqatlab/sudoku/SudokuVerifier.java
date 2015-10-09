@@ -32,18 +32,12 @@ public class SudokuVerifier {
 	public int checkRow(String candidateSolution, int rowIndex) {		
 		int startRead = 0 + (9 * rowIndex);
 		int endRead = startRead + 9;
-		
-		Set<Integer> numSet = createNumberSet();
-				
 		int ret = 0;
+		
 		String row = candidateSolution.substring(startRead, endRead);
 		
-		for (int i = 0; i < 9; i++) {
-			int num = Integer.parseInt(row.substring(i, i+1));			
-			boolean success = numSet.remove(num);
-			
-			if (!success)
-				ret = -3;
+		if (!checkValidRow(row)) {
+			ret = -3;
 		}
 		
 		return ret;
@@ -51,7 +45,6 @@ public class SudokuVerifier {
 	
 	public int checkColumn(String candidateSolution, int columnIndex) {
 		int ret = 0;
-		Set<Integer> numSet = createNumberSet();
 		String row = "";
 		
 		// build string row for column
@@ -60,12 +53,8 @@ public class SudokuVerifier {
 		}
 		
 		// now we have row, let's check
-		for (int i = 0; i < 9; i++) {
-			int num = Integer.parseInt(row.substring(i, i+1));			
-			boolean success = numSet.remove(num);
-			
-			if (!success)
-				ret = -4;
+		if (!checkValidRow(row)) {
+			ret = -4;
 		}		
 		
 		return ret;
@@ -90,5 +79,19 @@ public class SudokuVerifier {
 			return -1;
 		}
 		return 0;
+	}
+	
+	private boolean checkValidRow(String rowOfNumbers) {
+		boolean ret = true;
+		Set<Integer> numSet = createNumberSet();
+		
+		for (int i = 0; i < 9; i++) {
+			int num = Integer.parseInt(rowOfNumbers.substring(i, i+1));			
+			boolean success = numSet.remove(num);
+			
+			if (!success)
+				ret = false;
+		}		
+		return ret;
 	}
 }
